@@ -1,4 +1,9 @@
 .env
+<<<<<<< HEAD
 __pycache__
 highscores.db
 dev-requirements.txt
+=======
+highscores.db
+
+>>>>>>> 6bc265038490e15640bda22bf51e0e71770cdd17

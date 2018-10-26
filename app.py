@@ -11,4 +11,8 @@ api.add_resource(NewHighscore, '/api/newhighscore')
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 	app.run(debug=True)
+=======
+	app.run()
+>>>>>>> 6bc265038490e15640bda22bf51e0e71770cdd17
