@@ -1,6 +1,3 @@
 flask
-<<<<<<< HEAD
 flask-restful
-=======
->>>>>>> 6bc265038490e15640bda22bf51e0e71770cdd17
 gunicorn

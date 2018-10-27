@@ -3,3 +3,5 @@ __pycache__
 highscores.db
 dev-requirements.txt
 highscores.db
+*.swp
+utils
