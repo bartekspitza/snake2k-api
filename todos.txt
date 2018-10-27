@@ -1,0 +1,9 @@
+1. Add a db ORM: Add Sqlalchemy. Intead of querying the db directly, we use a middleware. Benefits are in less code and easier maintainability.
+
+2. Use a more robust DB: We are using Sqlite3 atm, which is okay for smaller apps, but postgres or MySql is the way to go for bigger apps.
+
+3. Add supervisor to server: So that in case of reboot, crash, the gunicorn process starts itself.
+
+4. Add security to site: Verify post requests for new highscores. Right now the site is full of exploits.
+
+5. Log users
