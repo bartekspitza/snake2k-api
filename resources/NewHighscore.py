@@ -5,14 +5,13 @@ import os
 class NewHighscore(Resource):
 
 	def post(self):
-		print('New request!')
 		parser = reqparse.RequestParser()
 		parser.add_argument('nickname', type=str, required=True)
 		parser.add_argument('score', type=int, required=True)
 		args = parser.parse_args()
 
 		# Query db
-		conn = sqlite3.connect(os.getenv('DB_PATH', os.environ['TMP_PATH']))
+		conn = sqlite3.connect(os.getenv('DB_PATH', './../highscores.db'))
 		cursor = conn.cursor()
 		cursor.execute("SELECT * FROM highscores")
 		current_highscores = [{"nickname": x[0], "score": x[1]} for x in cursor.fetchall()]
