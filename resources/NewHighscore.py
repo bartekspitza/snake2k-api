@@ -20,8 +20,8 @@ class NewHighscore(Resource):
 			score = current_highscores[i]
 			
 			if score["nickname"] == args["nickname"]:
+				should_add = False
 				if score["score"] <= args["score"]:
-					should_add = False
 					current_highscores.pop(i)
 					current_highscores.append(args)
 		
