@@ -9,4 +9,4 @@
 
 _Demo:_
 </br>
-<img src="206.189.191.252/demo.gif" />
+<img src="http://206.189.191.252/demo.gif" />
