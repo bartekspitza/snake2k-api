@@ -13,4 +13,4 @@ A remake of the original snake game that contains a couple of twists:
 <img src="http://206.189.191.252/demo.gif" />
 </br>
 
-The game is built with <a href="https://github.com/processing/p5.js">p5.js</a>, some Jquery and some AJAX.
+The game is built with <a href="https://github.com/processing/p5.js">p5.js</a> 💙
