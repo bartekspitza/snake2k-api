@@ -1,6 +1,6 @@
 # snake2k-API 
 
-### API built with Flask for <a target="blank" href="http://206.189.191.252/">snake2k</a>.
+### API built with Flask for <a target="_blank" href="http://206.189.191.252/">snake2k</a>.
 
 A remake of the original snake game that contains a couple of twists:
 * Snake can crash into walls
@@ -9,7 +9,7 @@ A remake of the original snake game that contains a couple of twists:
 
 
 </br>
-<a target="blank" href="http://206.189.191.252">Try it out here!</a>
+<a target="_blank" href="http://206.189.191.252">Try it out here!</a>
 <img src="http://206.189.191.252/demo.gif" />
 </br>
 
