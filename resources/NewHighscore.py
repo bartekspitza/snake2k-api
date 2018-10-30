@@ -19,11 +19,11 @@ class NewHighscore(Resource):
         for i in range(len(current_highscores)):
             score = current_highscores[i]
 
-                if score["nickname"] == args["nickname"]:
-                    should_add = False
-                        if score["score"] <= args["score"]:
-                            current_highscores.pop(i)
-                                current_highscores.append(args)
+            if score["nickname"] == args["nickname"]:
+                should_add = False
+                if score["score"] <= args["score"]:
+                    current_highscores.pop(i)
+                    current_highscores.append(args)
 
         if should_add:
             current_highscores.append(args)
@@ -35,7 +35,7 @@ class NewHighscore(Resource):
         cursor.execute("DELETE FROM highscores")
         for score in sorted_list:
             query = "INSERT INTO highscores VALUES ('{}', {})".format(score["nickname"], score["score"])
-                cursor.execute(query)
+            cursor.execute(query)
 
         conn.commit()
         conn.close()
